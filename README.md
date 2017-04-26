@@ -1,6 +1,6 @@
 # npmdoc-es6-promisify
 
-#### api documentation for  [es6-promisify (v5.0.0)](https://github.com/digitaldesignlabs/es6-promisify#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-es6-promisify.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-es6-promisify) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-es6-promisify.svg)](https://travis-ci.org/npmdoc/node-npmdoc-es6-promisify)
+#### basic api documentation for  [es6-promisify (v5.0.0)](https://github.com/digitaldesignlabs/es6-promisify#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-es6-promisify.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-es6-promisify) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-es6-promisify.svg)](https://travis-ci.org/npmdoc/node-npmdoc-es6-promisify)
 
 #### Converts callback-based functions to ES6 Promises
 
@@ -79,7 +79,8 @@
         "pretest": "./node_modules/eslint/bin/eslint.js ./lib/*.js ./tests/*.js",
         "test": "gulp && nodeunit tests"
     },
-    "version": "5.0.0"
+    "version": "5.0.0",
+    "bin": {}
 }
 ```
 
